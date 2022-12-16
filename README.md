@@ -44,6 +44,7 @@ exchange data with).
 ● A stop bit (SDA goes to '1' and SCK remains at '1').
 The number of bytes that can be exchanged is defined during the configuration of the circuit by the processor. The data are transmitted from the most significant bit (MSB).
 ![trame i2C](https://user-images.githubusercontent.com/92653832/208107921-ce810d54-f1ca-45c0-ad89-35a68e710961.png)
+
 Each byte must be followed by an acknowledgement bit (ACK).
 
 The figure below represents a two-byte read cycle.
@@ -64,7 +65,7 @@ The following figure shows the sending of an I2C frame composed of three bytes i
  
 ![read I2C](https://user-images.githubusercontent.com/92653832/208110250-8ffae556-7834-466b-bdc8-3720b6a5ae21.png)
 
-#Synthesis
+# RTL schematic
 The RTL schematic shows the 3 blocks: ClockGenerator, Emission_Reception and Interface. It also shows the tri-state buffers for the I2C controller signals (DataReceived , DataToSend, SDA) and the Dbus processor bus.
 
 ![Capture](https://user-images.githubusercontent.com/92653832/208111235-97470fc1-bc87-4a44-a565-ded0aea33b42.PNG)
