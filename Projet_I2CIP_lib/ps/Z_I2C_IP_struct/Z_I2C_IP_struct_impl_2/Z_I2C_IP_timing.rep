@@ -1,0 +1,170 @@
+//  Precision RTL Synthesis 64-bit 2021.2.0.8 (Production Release) Sun Jan 23 22:08:46 PST 2022
+//  
+//  Copyright (c) Mentor Graphics Corporation, 1996-2022, All Rights Reserved.
+//             Portions copyright 1991-2008 Compuware Corporation
+//                       UNPUBLISHED, LICENSED SOFTWARE.
+//            CONFIDENTIAL AND PROPRIETARY INFORMATION WHICH IS THE
+//          PROPERTY OF MENTOR GRAPHICS CORPORATION OR ITS LICENSORS
+//  
+//  Running on Windows 10 E21C396C@irc107-13  10.0.19041 x64
+//  
+//  Start time Mon Dec 12 15:09:25 2022
+
+-- Device: Xilinx - ZYNQ : 7Z010CLG400 : 1
+-- CTE report summary..
+-- POST-SYNTHESIS TIMING REPORTS ARE ESTIMATES AND SHOULD NOT BE RELIED ON TO MAKE QoR DECISIONS. For accurate timing information, please run place-and-route (P&R) and review P&R generated timing reports.
+
+================================================================================================
+                   Clock Frequency Report
+
+	Domain                  Clock Name                            Min Period (Freq)             Required Period (Freq)
+	------                  ----------                            -----------------             ----------------------
+	Clk_PS                  Clk                                   5.424 (184.366 MHz)           10.000 (100.000 MHz)
+	Clk_PS                  U_2/ix792z1361/O                      4.550 (219.780 MHz)           10.000 (100.000 MHz)
+	Clk_PS                  U_2/reg_tmp/Q                         3.473 (287.936 MHz)           20.000 (50.000 MHz)
+
+
+================================================================================================
+Setup Timing Analysis of Clk
+
+Setup Slack Path Summary
+
+              Data                                                                        Data        
+       Setup  Path                     Dest.                                              End   Logic 
+Index  Slack  Delay    Source Clock    Clock      Data Start Pin         Data End Pin     Edge  Levels
+-----  -----  -----  ----------------  -----  ----------------------  ------------------  ----  ------
+  1    2.725  2.705  U_2/ix792z1361/O  Clk    U_2/lat_count_max(1)/G  U_2/reg_count(1)/R  Rise       3
+  2    2.725  2.705  U_2/ix792z1361/O  Clk    U_2/lat_count_max(2)/G  U_2/reg_count(1)/R  Fall       3
+  3    4.576  5.075  Clk               Clk    U_2/reg_count(0)/C      U_2/reg_count(1)/R  Fall      36
+  4    4.605  5.046  Clk               Clk    U_2/reg_count(1)/C      U_2/reg_count(1)/R  Fall      35
+  5    4.634  5.017  Clk               Clk    U_2/reg_count(2)/C      U_2/reg_count(1)/R  Fall      34
+  6    4.663  4.988  Clk               Clk    U_2/reg_count(3)/C      U_2/reg_count(1)/R  Fall      33
+  7    4.692  4.959  Clk               Clk    U_2/reg_count(4)/C      U_2/reg_count(1)/R  Fall      32
+  8    4.721  4.930  Clk               Clk    U_2/reg_count(5)/C      U_2/reg_count(1)/R  Fall      31
+  9    4.750  4.901  Clk               Clk    U_2/reg_count(6)/C      U_2/reg_count(1)/R  Fall      30
+ 10    4.779  4.872  Clk               Clk    U_2/reg_count(7)/C      U_2/reg_count(1)/R  Fall      29
+
+                  CTE Path Report
+
+
+Critical path #1, (path slack = 2.725):, Logic Levels = 3
+
+SOURCE CLOCK: name: U_2/ix792z1361/O period: 10.000000
+     Times are relative to the 1st falling edge
+  DEST CLOCK: name: Clk period: 10.000000
+     Times are relative to the 2nd rising edge
+
+NAME                      GATE      DELAY    ARRIVAL DIR  FANOUT LEVEL
+U_2/lat_count_max(1)/G LDCE                  0.000   dn
+U_2/lat_count_max(1)/Q LDCE        0.419     0.419   up
+U_2/count_max(1)       (net)       0.333                   1     0  
+U_2/ix5077z1530/I1     LUT3                  0.752   up
+U_2/ix5077z1530/O      LUT3        0.124     0.876   up
+U_2/nx5077z19          (net)       0.333                   1     1  
+U_2/ix5077z1319/I0     LUT5                  1.209   up
+U_2/ix5077z1319/O      LUT5        0.124     1.333   up
+U_2/nx5077z18          (net)       0.354                   4     2  
+U_2/ix5077z17699/I2    LUT4                  1.687   up
+U_2/ix5077z17699/O     LUT4        0.124     1.811   up
+U_2/nx5077z3           (net)       0.894                  31     3  
+U_2/reg_count(1)/R     FDRE                  2.705   up
+
+		Initial edge separation:      5.000
+		Source clock delay:      -    0.335
+		Dest clock delay:        +    1.114
+		                        -----------
+		Edge separation:              5.779
+		Setup constraint:        -    0.349
+		                        -----------
+		Data required time:           5.430
+		Data arrival time:       -    2.705   ( 29.24% cell delay, 70.76% net delay )
+		                        -----------
+		Slack:                        2.725
+
+
+
+================================================================================================
+Setup Timing Analysis of U_2/ix792z1361/O
+
+Setup Slack Path Summary
+
+              Data                  Data   Data  Data        
+       Setup  Path   Source  Dest.  Start  End   End   Logic 
+Index  Slack  Delay  Clock   Clock   Pin   Pin   Edge  Levels
+-----  -----  -----  ------  -----  -----  ----  ----  ------
+
+There are no additional constrained paths to report.
+
+There are no additional constrained paths to report.
+
+                  CTE Path Report
+Info: No paths returned.
+
+
+================================================================================================
+Setup Timing Analysis of U_2/reg_tmp/Q
+
+Setup Slack Path Summary
+
+               Data                                                                                            Data        
+       Setup   Path                                                                                            End   Logic 
+Index  Slack   Delay  Source Clock    Dest. Clock             Data Start Pin                Data End Pin       Edge  Levels
+-----  ------  -----  -------------  -------------  ----------------------------------  ---------------------  ----  ------
+  1     8.716  1.268  Clk            U_2/reg_tmp/Q  U_0_U_1/reg_Config_NB_Donnees(7)/C  U_1/reg_CptData(7)/D   Rise       1
+  2     8.716  1.268  Clk            U_2/reg_tmp/Q  U_0_U_1/reg_Config_NB_Donnees(6)/C  U_1/reg_CptData(6)/D   Rise       1
+  3     8.716  1.268  Clk            U_2/reg_tmp/Q  U_0_U_1/reg_Config_NB_Donnees(5)/C  U_1/reg_CptData(5)/D   Rise       1
+  4     8.716  1.268  Clk            U_2/reg_tmp/Q  U_0_U_1/reg_Config_NB_Donnees(1)/C  U_1/reg_CptData(1)/D   Rise       1
+  5     8.716  1.268  Clk            U_2/reg_tmp/Q  U_0_U_1/reg_Config_NB_Donnees(0)/C  U_1/reg_CptData(0)/D   Rise       1
+  6     8.716  1.268  Clk            U_2/reg_tmp/Q  U_0_U_1/reg_Config_NB_Donnees(3)/C  U_1/reg_CptData(3)/D   Rise       1
+  7     8.716  1.268  Clk            U_2/reg_tmp/Q  U_0_U_1/reg_Config_NB_Donnees(2)/C  U_1/reg_CptData(2)/D   Rise       1
+  8     8.716  1.268  Clk            U_2/reg_tmp/Q  U_0_U_1/reg_Config_NB_Donnees(4)/C  U_1/reg_CptData(4)/D   Rise       1
+  9    16.527  3.457  U_2/reg_tmp/Q  U_2/reg_tmp/Q  U_1/reg_CptData(0)/C                U_1/reg_CptData(31)/D  Rise      33
+ 10    16.891  3.093  U_2/reg_tmp/Q  U_2/reg_tmp/Q  U_1/reg_CptData(1)/C                U_1/reg_CptData(31)/D  Rise      32
+
+                  CTE Path Report
+
+
+Critical path #1, (path slack = 8.716):, Logic Levels = 1
+
+SOURCE CLOCK: name: Clk period: 10.000000
+     Times are relative to the 2nd rising edge
+  DEST CLOCK: name: U_2/reg_tmp/Q period: 20.000000
+     Times are relative to the 2nd rising edge
+
+NAME                                  GATE      DELAY    ARRIVAL DIR  FANOUT LEVEL
+U_0_U_1/reg_Config_NB_Donnees(7)/C FDCE                  0.000   up
+U_0_U_1/reg_Config_NB_Donnees(7)/Q FDCE        0.478     0.478   up
+U_0_U_1/Config_NB_Donnees(7)       (net)       0.333                   1     0  
+U_0_U_1/ix30895z1498/I0            LUT3                  0.811   up
+U_0_U_1/ix30895z1498/O             LUT3        0.124     0.935   up
+U_0_U_1/nx30895z1                  (net)       0.333                   1     1  
+U_1/reg_CptData(7)/D               FDRE                  1.268   up
+
+		Initial edge separation:     10.000
+		Source clock delay:      -    1.114
+		Dest clock delay:        +    1.114
+		                        -----------
+		Edge separation:             10.000
+		Setup constraint:        -    0.016
+		                        -----------
+		Data required time:           9.984
+		Data arrival time:       -    1.268   ( 47.48% cell delay, 52.52% net delay )
+		                        -----------
+		Slack:                        8.716
+
+
+
+================================================================================================
+                   Input Delay Report
+
+	Input                  Clock Name                            Slack (ns)
+	-----                  ----------                            ----------
+	No input delay constraints.
+
+
+================================================================================================
+                   Output Delay Report
+
+	Output                 Clock Name                            Slack (ns)
+	------                 ----------                            ----------
+	No output delay constraints.

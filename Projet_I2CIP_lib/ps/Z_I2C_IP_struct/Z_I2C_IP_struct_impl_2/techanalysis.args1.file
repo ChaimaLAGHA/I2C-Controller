@@ -1,0 +1,11 @@
+10:-pipe_flow
+6:-quiet
+8:-out_dir
+107:C:/Users/E21C396C/Desktop/Projet_I2CIP/Projet_I2CIP_lib/ps/Z_I2C_IP_struct/Z_I2C_IP_struct_impl_2//rtlc.out
+4:-vhf
+126:C:/Users/E21C396C/Desktop/Projet_I2CIP/Projet_I2CIP_lib/ps/Z_I2C_IP_struct/Z_I2C_IP_struct_impl_2//hdlAnalyze_techcellvhdlfile
+25:-comment_transoff_regions
+13:-lib_map_file
+107:C:/Users/E21C396C/Desktop/Projet_I2CIP/Projet_I2CIP_lib/ps/Z_I2C_IP_struct/Z_I2C_IP_struct_impl_2//.jaguarc
+142:+incdir+C:/Users/E21C396C/Desktop/Projet_I2CIP/Projet_I2CIP_lib/hdl+C:/Users/E21C396C/Desktop/Projet_I2CIP/Projet_I2CIP_lib/ps/Z_I2C_IP_struct
+17:+define+synthesis

@@ -1,0 +1,14 @@
+22 serialization::archive 18 0 1 0
+0 0 0 6 16 0 0 0 33 projet_i2cip_lib.z_i2c_ip(struct) 3 1 0
+1 33 projet_i2cip_lib.z_i2c_ip(struct) 36 Projet_I2CIP_lib.Z_I2C_IP(struct)__0 8 _no_attr 33 Projet_I2CIP_lib.Z_I2C_IP(struct) 79 C:/Users/E21C396C/Desktop/Projet_I2CIP/Projet_I2CIP_lib/hdl/z_i2c_ip_struct.vhd 16 37 projet_i2cip_lib.z_i2c_ip(struct).u_0 3
+2 37 projet_i2cip_lib.z_i2c_ip(struct).u_0 39 Projet_I2CIP_lib.Z_Interface(struct)__0 0  36 Projet_I2CIP_lib.Z_Interface(struct) 79 C:/Users/E21C396C/Desktop/Projet_I2CIP/Projet_I2CIP_lib/hdl/z_i2c_ip_struct.vhd 137 41 projet_i2cip_lib.z_i2c_ip(struct).u_0.u_0 3
+3 41 projet_i2cip_lib.z_i2c_ip(struct).u_0.u_0 32 Projet_I2CIP_lib.Z_Read(arch)__0 0  29 Projet_I2CIP_lib.Z_Read(arch) 82 C:/Users/E21C396C/Desktop/Projet_I2CIP/Projet_I2CIP_lib/hdl/z_interface_struct.vhd 101 37 projet_i2cip_lib.z_i2c_ip(struct).u_1 3
+4 37 projet_i2cip_lib.z_i2c_ip(struct).u_1 46 Projet_I2CIP_lib.Z_Emission_Reception(arch)__0 0  43 Projet_I2CIP_lib.Z_Emission_Reception(arch) 79 C:/Users/E21C396C/Desktop/Projet_I2CIP/Projet_I2CIP_lib/hdl/z_i2c_ip_struct.vhd 125 41 projet_i2cip_lib.z_i2c_ip(struct).u_0.u_1 3
+5 41 projet_i2cip_lib.z_i2c_ip(struct).u_0.u_1 33 Projet_I2CIP_lib.Z_Write(arch)__0 0  30 Projet_I2CIP_lib.Z_Write(arch) 82 C:/Users/E21C396C/Desktop/Projet_I2CIP/Projet_I2CIP_lib/hdl/z_interface_struct.vhd 114 37 projet_i2cip_lib.z_i2c_ip(struct).u_2 3
+6 37 projet_i2cip_lib.z_i2c_ip(struct).u_2 42 Projet_I2CIP_lib.Z_ClockGenerator(arch)__0 0  39 Projet_I2CIP_lib.Z_ClockGenerator(arch) 79 C:/Users/E21C396C/Desktop/Projet_I2CIP/Projet_I2CIP_lib/hdl/z_i2c_ip_struct.vhd 117 0 0 6 16 0 0 0 36 Projet_I2CIP_lib.Z_I2C_IP(struct)__0 6 1 0
+7 36 Projet_I2CIP_lib.Z_I2C_IP(struct)__0 0 0 0 16 0 0 0 0 16 0 39 Projet_I2CIP_lib.Z_Interface(struct)__0 6
+8 39 Projet_I2CIP_lib.Z_Interface(struct)__0 0 16 0 0 16 0 32 Projet_I2CIP_lib.Z_Read(arch)__0 6
+9 32 Projet_I2CIP_lib.Z_Read(arch)__0 0 16 0 0 16 0 46 Projet_I2CIP_lib.Z_Emission_Reception(arch)__0 6
+10 46 Projet_I2CIP_lib.Z_Emission_Reception(arch)__0 0 16 0 0 16 0 33 Projet_I2CIP_lib.Z_Write(arch)__0 6
+11 33 Projet_I2CIP_lib.Z_Write(arch)__0 0 16 0 0 16 0 42 Projet_I2CIP_lib.Z_ClockGenerator(arch)__0 6
+12 42 Projet_I2CIP_lib.Z_ClockGenerator(arch)__0 0 16 0 0 16 0 0

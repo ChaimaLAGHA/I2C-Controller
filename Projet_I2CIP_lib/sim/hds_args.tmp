@@ -1,0 +1,1 @@
+ -do C:UsersCHAIMADesktopModelsim.SE.v10.4.x64_AsanDl.cominstallSetup.exe -L Projet_I2CIP_lib -l transcript.txt -i -t ns -wlf C:/Users/CHAIMA/Desktop/Modelsim.SE.v10.4.x64_AsanDl.com/install/Setup.exe -multisource_delay latest +typdelays Projet_I2CIP_lib.Write(arch)

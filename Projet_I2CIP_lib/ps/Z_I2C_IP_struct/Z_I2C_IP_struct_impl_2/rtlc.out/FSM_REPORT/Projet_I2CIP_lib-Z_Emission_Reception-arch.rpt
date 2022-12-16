@@ -1,0 +1,28 @@
+
+
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Module : Projet_I2CIP_lib.Z_Emission_Reception(arch)
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Number of FSMs Extracted : 1
+
+1.
+--------------------------------------------------
+Number of States                : 9
+Primary State Variable          : State[8:0]
+Async set/reset state(s)        : 000000001 
+Re-encoding Scheme              : ONEHOT 
+FSM: Info, state encoding table:
+FSM:	Index	                         State Name	                            Literal	                      Encoding
+FSM:	    0	                               idle	                          000000001	                     000000001
+FSM:	    1	                   sending_StartBit	                          000000010	                     000000010
+FSM:	    2	                    sending_Address	                          000000100	                     000000100
+FSM:	    3	                     sending_RnWBit	                          000001000	                     000001000
+FSM:	    4	                     waiting_AckBit	                          000010000	                     000010000
+FSM:	    5	                          Send_Data	                          000100000	                     000100000
+FSM:	    6	                       Receive_Data	                          001000000	                     001000000
+FSM:	    7	                     sending_AckBit	                          010000000	                     010000000
+FSM:	    8	                    sending_StopBit	                          100000000	                     100000000
+
+
+

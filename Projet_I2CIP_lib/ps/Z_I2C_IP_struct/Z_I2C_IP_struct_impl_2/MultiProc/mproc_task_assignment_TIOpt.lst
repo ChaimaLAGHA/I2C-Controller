@@ -1,0 +1,5 @@
+TIOpt 1700 Opt Ist pass:.projet_i2cip_lib.Z_Emission_Reception_notri.arch_unfold_912  arch_unfold_912 0
+TIOpt 1732 Opt Ist pass:.projet_i2cip_lib.Z_Write_notri.arch_unfold_1291  arch_unfold_1291 0
+TIOpt 1764 Opt Ist pass:.projet_i2cip_lib.Z_Read_notri.arch_unfold_1290  arch_unfold_1290 0
+TIOpt 1796 Opt Ist pass:.projet_i2cip_lib.Z_ClockGenerator.arch_unfold_913  arch_unfold_913 0
+TIOpt 1824 Opt Ist pass:.projet_i2cip_lib.Z_I2C_IP.struct  struct 0

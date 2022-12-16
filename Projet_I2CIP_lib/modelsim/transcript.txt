@@ -1,0 +1,49 @@
+# vsim -f hds_args.tmp -no_autoacc -foreign "hdsInit C:/Apps/MentorGraphics/HDS_2022.1/resources/downstream/modelsim/ModelSim_32Bit.dll" -pli ""C:/Apps/MentorGraphics/HDS_2022.1/resources/downstream/modelsim/ModelSim_32Bit.dll"" 
+# Start time: 15:53:23 on Dec 05,2022
+# //  ModelSim PE 2022.1 Jan 29 2022
+# //
+# //  Copyright 1991-2022 Mentor Graphics Corporation
+# //  All Rights Reserved.
+# //
+# //  ModelSim PE and its associated documentation contain trade
+# //  secrets and commercial or financial information that are the property of
+# //  Mentor Graphics Corporation and are privileged, confidential,
+# //  and exempt from disclosure under the Freedom of Information Act,
+# //  5 U.S.C. Section 552. Furthermore, this information
+# //  is prohibited from disclosure under the Trade Secrets Act,
+# //  18 U.S.C. Section 1905.
+# //
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.std_logic_arith(body)
+# Loading ieee.numeric_std(body)
+# Loading Projet_I2CIP_lib.i2c_package
+# Loading ieee.std_logic_unsigned(body)
+# Loading Projet_I2CIP_lib.z_controleur_i2c(struct)
+# Loading Projet_I2CIP_lib.z_environnement2(arch)
+# Loading ieee.math_real(body)
+# Loading Projet_I2CIP_lib.z_i2c_ip(struct)
+# Loading Projet_I2CIP_lib.z_clockgenerator(arch)
+# Loading Projet_I2CIP_lib.z_emission_reception(arch)
+# Loading Projet_I2CIP_lib.z_interface(struct)
+# Loading Projet_I2CIP_lib.z_read(arch)
+# Loading Projet_I2CIP_lib.z_write(arch)
+# Loading C:/Apps/MentorGraphics/HDS_2022.1/resources/downstream/modelsim/ModelSim_32Bit.dll
+add wave -position insertpoint  \
+sim:/z_controleur_i2c/SCK \
+sim:/z_controleur_i2c/Addr \
+sim:/z_controleur_i2c/Clk \
+sim:/z_controleur_i2c/Dbus \
+sim:/z_controleur_i2c/RnW \
+sim:/z_controleur_i2c/SDA
+restart
+# Loading C:/Apps/MentorGraphics/HDS_2022.1/resources/downstream/modelsim/ModelSim_32Bit.dll
+run
+add wave -position insertpoint \
+/z_controleur_i2c/U_1/U_1/Emission_ReceptionProc/State 
+restart
+# Loading C:/Apps/MentorGraphics/HDS_2022.1/resources/downstream/modelsim/ModelSim_32Bit.dll
+run
+# End time: 15:57:17 on Dec 05,2022, Elapsed time: 0:03:54
+# Errors: 0, Warnings: 0

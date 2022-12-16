@@ -1,0 +1,164 @@
+# Info: [9569]: Logging project transcript to file C:/Users/E21C396C/Desktop/Projet_I2CIP/Projet_I2CIP_lib/ps/Z_I2C_IP_struct/Z_I2C_IP_struct_impl_2/precision.log
+# Info: [9569]: Logging suppressed messages transcript to file C:/Users/E21C396C/Desktop/Projet_I2CIP/Projet_I2CIP_lib/ps/Z_I2C_IP_struct/Z_I2C_IP_struct_impl_2/precision.log.suppressed
+# Info: [9552]: Activated implementation Z_I2C_IP_struct_impl_2 in project C:/Users/E21C396C/Desktop/Projet_I2CIP/Projet_I2CIP_lib/ps/Z_I2C_IP_struct/Z_I2C_IP_struct.psp.
+# Info: [20026]: MultiProc: Precision will use a maximum of 12 logical processors.
+# Info: [15302]: Setting up the design to use synthesis library "xcz7.syn"
+# Info: [585]: The global max fanout is currently set to 10000 for Xilinx - ZYNQ.
+# Info: [15328]: Setting Part to: "7Z010CLG400".
+# Info: [15329]: Setting Process to: "1".
+# Info: [7513]: The default input to Vivado place and route has been set to "Verilog".
+# Info: [7512]: The place and route tool for current technology is Vivado.
+# Info: [3052]: Decompressing file : C:/Apps/MentorGraphics/PS2021.2_64-bit/Mgc_home/pkgs/psr/techlibs/zynqa/xcz7.syn in C:/Users/E21C396C/Desktop/Projet_I2CIP/Projet_I2CIP_lib/ps/Z_I2C_IP_struct/Z_I2C_IP_struct_impl_2/synlib.
+# Info: [3022]: Reading file: C:/Users/E21C396C/Desktop/Projet_I2CIP/Projet_I2CIP_lib/ps/Z_I2C_IP_struct/Z_I2C_IP_struct_impl_2/synlib/zynqa/xcz7.syn.
+# Info: [645]: Loading library initialization file C:/Apps/MentorGraphics/PS2021.2_64-bit/Mgc_home/pkgs/psr/userware/xilinx_rename.tcl
+# Info: [40000]: vhdlorder, Release 2021b.15
+# Info: [40000]: Files sorted successfully.
+# Info: [40000]: hdl-analyze, Release RTLC-Precision 2021b.15
+# Info: [42502]: Analyzing input file "C:/Users/E21C396C/Desktop/Projet_I2CIP/Projet_I2CIP_lib/hdl/I2C_Package_pkg.vhd" ...
+# Info: [42502]: Analyzing input file "C:/Users/E21C396C/Desktop/Projet_I2CIP/Projet_I2CIP_lib/hdl/Z_Read_arch.vhd" ...
+# Info: [42502]: Analyzing input file "C:/Users/E21C396C/Desktop/Projet_I2CIP/Projet_I2CIP_lib/hdl/Z_Write_arch.vhd" ...
+# Info: [42502]: Analyzing input file "C:/Users/E21C396C/Desktop/Projet_I2CIP/Projet_I2CIP_lib/hdl/z_interface_struct.vhd" ...
+# Info: [42502]: Analyzing input file "C:/Users/E21C396C/Desktop/Projet_I2CIP/Projet_I2CIP_lib/hdl/Z_Emission_Reception_arch.vhd" ...
+# Info: [42502]: Analyzing input file "C:/Users/E21C396C/Desktop/Projet_I2CIP/Projet_I2CIP_lib/hdl/Z_ClockGenerator_arch.vhd" ...
+# Info: [42502]: Analyzing input file "C:/Users/E21C396C/Desktop/Projet_I2CIP/Projet_I2CIP_lib/hdl/z_i2c_ip_struct.vhd" ...
+# Info: [668]: Current working directory: C:/Users/E21C396C/Desktop/Projet_I2CIP/Projet_I2CIP_lib/ps/Z_I2C_IP_struct/Z_I2C_IP_struct_impl_2.
+# Info: [40000]: RTLC-Driver, Release RTLC-Precision 2021b.15
+# Info: [40000]: Last compiled on Jan  4 2022 13:37:12
+# Info: [44512]: Initializing...
+# Info: [44504]: Partitioning design ....
+# Info: [40000]: RTLCompiler, Release RTLC-Precision 2021b.15
+# Info: [40000]: Last compiled on Jan  4 2022 13:41:44
+# Info: [44512]: Initializing...
+# Info: [44522]: Root Module Projet_I2CIP_lib.Z_I2C_IP(struct): Pre-processing...
+# Info: [44506]: Module Projet_I2CIP_lib.Z_ClockGenerator(arch): Pre-processing...
+# Info: [44506]: Module Projet_I2CIP_lib.Z_Emission_Reception(arch): Pre-processing...
+# Info: [45143]: "C:/Users/E21C396C/Desktop/Projet_I2CIP/Projet_I2CIP_lib/hdl/I2C_Package_pkg.vhd", line 63: Enumerated type DefState with 9 elements encoded as onehot.
+# Info: [45144]: Encodings for DefState values.
+# Info: [40000]: value                              	                      DefState[8-0]
+# Info: [40000]: idle                               	                     000000001
+# Info: [40000]: sending_StartBit                   	                     000000010
+# Info: [40000]: sending_Address                    	                     000000100
+# Info: [40000]: sending_RnWBit                     	                     000001000
+# Info: [40000]: waiting_AckBit                     	                     000010000
+# Info: [40000]: Send_Data                          	                     000100000
+# Info: [40000]: Receive_Data                       	                     001000000
+# Info: [40000]: sending_AckBit                     	                     010000000
+# Info: [40000]: sending_StopBit                    	                     100000000
+# Info: [45144]: Extracted FSM in module Projet_I2CIP_lib.Z_Emission_Reception(arch), with state variable = State[8:0], async set/reset state(s) = 000000001 , number of states = 9.
+# Info: [45144]: Re-encoding 9 state FSM as "onehot".
+# Info: [45144]: FSM: State encoding table.
+# Info: [40000]: FSM:	Index	           State Name	                            Literal	                      Encoding
+# Info: [40000]: FSM:	    0	                 idle	                          000000001	                     000000001
+# Info: [40000]: FSM:	    1	     sending_StartBit	                          000000010	                     000000010
+# Info: [40000]: FSM:	    2	      sending_Address	                          000000100	                     000000100
+# Info: [40000]: FSM:	    3	       sending_RnWBit	                          000001000	                     000001000
+# Info: [40000]: FSM:	    4	       waiting_AckBit	                          000010000	                     000010000
+# Info: [40000]: FSM:	    5	            Send_Data	                          000100000	                     000100000
+# Info: [40000]: FSM:	    6	         Receive_Data	                          001000000	                     001000000
+# Info: [40000]: FSM:	    7	       sending_AckBit	                          010000000	                     010000000
+# Info: [40000]: FSM:	    8	      sending_StopBit	                          100000000	                     100000000
+# Info: [44506]: Module Projet_I2CIP_lib.Z_Interface(struct): Pre-processing...
+# Info: [44506]: Module Projet_I2CIP_lib.Z_Read(arch): Pre-processing...
+# Info: [44506]: Module Projet_I2CIP_lib.Z_Write(arch): Pre-processing...
+# Warning: [45729]: "C:/Users/E21C396C/Desktop/Projet_I2CIP/Projet_I2CIP_lib/hdl/Z_ClockGenerator_arch.vhd", line 19: Input port Config_IT_Enable has never been used.
+# Warning: [45729]: "C:/Users/E21C396C/Desktop/Projet_I2CIP/Projet_I2CIP_lib/hdl/Z_ClockGenerator_arch.vhd", line 19: Input port Config_Sens_Echange has never been used.
+# Warning: [45729]: "C:/Users/E21C396C/Desktop/Projet_I2CIP/Projet_I2CIP_lib/hdl/Z_ClockGenerator_arch.vhd", line 19: Input port Config_NB_Donnees(7 downto 0) has never been used.
+# Warning: [45729]: "C:/Users/E21C396C/Desktop/Projet_I2CIP/Projet_I2CIP_lib/hdl/Z_Emission_Reception_arch.vhd", line 22: Input port Clk has never been used.
+# Warning: [45729]: "C:/Users/E21C396C/Desktop/Projet_I2CIP/Projet_I2CIP_lib/hdl/Z_Emission_Reception_arch.vhd", line 23: Input port Config_IT_Enable has never been used.
+# Warning: [45729]: "C:/Users/E21C396C/Desktop/Projet_I2CIP/Projet_I2CIP_lib/hdl/Z_Emission_Reception_arch.vhd", line 23: Input port Config_Mode_Vitess has never been used.
+# Warning: [45729]: "C:/Users/E21C396C/Desktop/Projet_I2CIP/Projet_I2CIP_lib/hdl/Z_Emission_Reception_arch.vhd", line 38: signal cpt has never been used.
+# Warning: [45729]: "C:/Users/E21C396C/Desktop/Projet_I2CIP/Projet_I2CIP_lib/hdl/Z_Read_arch.vhd", line 26: Input port nWait has never been used.
+# Info: [44508]: Module Projet_I2CIP_lib.Z_ClockGenerator(arch): Compiling...
+# Warning: [45784]: "C:/Users/E21C396C/Desktop/Projet_I2CIP/Projet_I2CIP_lib/hdl/Z_ClockGenerator_arch.vhd", line 35: Module Projet_I2CIP_lib.Z_ClockGenerator(arch), Net(s) Transfert_Request: Although this signal is not part of the sensitivity list of this block, it is being read. This may lead to simulation mismatch.
+# Warning: [45702]: "C:/Users/E21C396C/Desktop/Projet_I2CIP/Projet_I2CIP_lib/hdl/Z_ClockGenerator_arch.vhd", line 32: Initial value for tmp is ignored for synthesis. To allow initial value for synthesis, please set the attribute "allow_init_val" in HDL or enable the global support for initial value synthesis through "compile_initial_values" switch.
+# Warning: [45702]: "C:/Users/E21C396C/Desktop/Projet_I2CIP/Projet_I2CIP_lib/hdl/Z_ClockGenerator_arch.vhd", line 33: Initial value for current_Mode is ignored for synthesis. To allow initial value for synthesis, please set the attribute "allow_init_val" in HDL or enable the global support for initial value synthesis through "compile_initial_values" switch.
+# Warning: [45702]: "C:/Users/E21C396C/Desktop/Projet_I2CIP/Projet_I2CIP_lib/hdl/Z_ClockGenerator_arch.vhd", line 35: Initial value for count_max[2:1] is ignored for synthesis. To allow initial value for synthesis, please set the attribute "allow_init_val" in HDL or enable the global support for initial value synthesis through "compile_initial_values" switch.
+# Warning: [45702]: "C:/Users/E21C396C/Desktop/Projet_I2CIP/Projet_I2CIP_lib/hdl/Z_ClockGenerator_arch.vhd", line 37: Initial value for count[31:0] is ignored for synthesis. To allow initial value for synthesis, please set the attribute "allow_init_val" in HDL or enable the global support for initial value synthesis through "compile_initial_values" switch.
+# Info: [44508]: Module Projet_I2CIP_lib.Z_Emission_Reception(arch): Compiling...
+# Warning: [45702]: "C:/Users/E21C396C/Desktop/Projet_I2CIP/Projet_I2CIP_lib/hdl/Z_Emission_Reception_arch.vhd", line 36: Initial value for SCK_flip is ignored for synthesis. To allow initial value for synthesis, please set the attribute "allow_init_val" in HDL or enable the global support for initial value synthesis through "compile_initial_values" switch.
+# Info: [44508]: Module Projet_I2CIP_lib.Z_Read(arch): Compiling...
+# Warning: [45784]: "C:/Users/E21C396C/Desktop/Projet_I2CIP/Projet_I2CIP_lib/hdl/Z_Read_arch.vhd", line 38: Module Projet_I2CIP_lib.Z_Read(arch), Net(s) nAS, nBE0, nBE1: Although this signal is not part of the sensitivity list of this block, it is being read. This may lead to simulation mismatch.
+# Info: [44508]: Module Projet_I2CIP_lib.Z_Write(arch): Compiling...
+# Warning: [45784]: "C:/Users/E21C396C/Desktop/Projet_I2CIP/Projet_I2CIP_lib/hdl/Z_Write_arch.vhd", line 39: Module Projet_I2CIP_lib.Z_Write(arch), Net(s) nBE0, nBE1: Although this signal is not part of the sensitivity list of this block, it is being read. This may lead to simulation mismatch.
+# Info: [44508]: Module Projet_I2CIP_lib.Z_Interface(struct): Compiling...
+# Info: [44523]: Root Module Projet_I2CIP_lib.Z_I2C_IP(struct): Compiling...
+# Info: [45309]: "C:/Users/E21C396C/Desktop/Projet_I2CIP/Projet_I2CIP_lib/hdl/Z_ClockGenerator_arch.vhd", line 35: Optimizing state bit(s) count_max[31:7] to constant 0
+# Info: [45309]: "C:/Users/E21C396C/Desktop/Projet_I2CIP/Projet_I2CIP_lib/hdl/Z_ClockGenerator_arch.vhd", line 35: Optimizing state bit(s) count_max[0] to constant 1
+# Info: [45205]: "C:/Users/E21C396C/Desktop/Projet_I2CIP/Projet_I2CIP_lib/hdl/Z_ClockGenerator_arch.vhd", line 35: Module Projet_I2CIP_lib.Z_ClockGenerator(arch), Net(s) count_max[2:1]: Latch inferred.
+# Warning: [45581]: "C:/Users/E21C396C/Desktop/Projet_I2CIP/Projet_I2CIP_lib/hdl/Z_Emission_Reception_arch.vhd", line 59: No Set/Reset assignment to signal SCK_flip. Please check if this was not intended.
+# Info: [45309]: "C:/Users/E21C396C/Desktop/Projet_I2CIP/Projet_I2CIP_lib/hdl/Z_Emission_Reception_arch.vhd", line 59: Optimizing state bit(s) Status_Read_Error to constant 0
+# Info: [44846]: Rebalanced Expression Tree...
+# Info: [44842]: Compilation successfully completed.
+# Info: [44841]: Counter Inferencing === Detected : 4, Inferred (Modgen/Selcounter/AddSub) : 0 (0 / 0 / 0), AcrossDH (Merged/Not-Merged) : (0 / 0), Not-Inferred (Acrossdh/Attempted) : (0 / 2), Local Vars : 2 ===
+# Info: [44856]: Total lines of RTL compiled: 613.
+# Info: [44835]: Total CPU time for compilation: 0.9 secs.
+# Info: [44513]: Overall running time for compilation: 1.0 secs.
+# Info: [668]: Current working directory: C:/Users/E21C396C/Desktop/Projet_I2CIP/Projet_I2CIP_lib/ps/Z_I2C_IP_struct/Z_I2C_IP_struct_impl_2.
+# Info: [15334]: Doing rtl optimizations.
+# Info: [1078]: Constraints: Precision will generate the constraint: create_clock [get_ports {Clk}] -name {Clk} -period 10 -waveform {0 5} on port:Clk. Reason: setup_design -frequency. Please override the constraint if needed.
+# Info: [1079]: Constraints: Precision will generate the constraint: create_clock [get_pins {U_2/ix5/out}] -name {U_2/ix5/out} -period 10 -waveform {0 5} on portinst:U_2.ix5.out. Reason: Generated clock information cannot be computed. Hence, global frequency setting is used. Please override the constraint if needed.
+# Info: [1078]: Constraints: Precision will generate the constraint: create_generated_clock -name {U_2/reg_tmp/out} -source [get_ports {Clk}] -multiply_by 1 -divide_by 2 -duty_cycle 50 [get_pins {U_2/reg_tmp/out}] on portinst:U_2.reg_tmp.out. Reason: Clock is generated from a flip flop. Please override the constraint if needed.
+# Info: [1081]: Constraints: Precision will generate the following clock domain information against the clocks. Since the clock domain information is not provided by the user for the below clocks, all clocks are assumed to be synchronous clocks. This will result in all paths between the clock domains to be analyzed for timing. If this behaviour is not intended for any clock domain or path, please override using -domain option or false path constraint. Among these clocks, clock with the smallest period will be chosen as the default domain and the rest of the clock periods specified using multiply-by or divide-by factor.
+# Info: Constraints: Precision Generated Clock Domains:
+# Info: 	Domain Name: Clk_PS		Clock Name: Clk Clock Name: U_2/ix5/out
+# Info: [671]: Finished compiling design.
+# Info: [668]: Current working directory: C:/Users/E21C396C/Desktop/Projet_I2CIP/Projet_I2CIP_lib/ps/Z_I2C_IP_struct/Z_I2C_IP_struct_impl_2.
+# Info: [4557]: 1 Instances are flattened in hierarchical block .projet_i2cip_lib.Z_I2C_IP.struct.
+# Info: [20013]: Precision will use 6 processor(s).
+# Info: [15002]: Optimizing design view:.projet_i2cip_lib.Z_Read_notri.arch_unfold_1290
+# Info: [15002]: Optimizing design view:.projet_i2cip_lib.Z_Write_notri.arch_unfold_1291
+# Info: [15002]: Optimizing design view:.projet_i2cip_lib.Z_I2C_IP.struct
+# Warning: #  [1619]: The internal tri-state driving net DataReceived(7) is being replaced by a buffer because a high-impedance 'Z' state cannot be propagated across logic being driven by the net. This may not match simulation behavior.
+# Warning: #  [1619]: The internal tri-state driving net DataReceived(6) is being replaced by a buffer because a high-impedance 'Z' state cannot be propagated across logic being driven by the net. This may not match simulation behavior.
+# Warning: #  [1619]: The internal tri-state driving net DataReceived(5) is being replaced by a buffer because a high-impedance 'Z' state cannot be propagated across logic being driven by the net. This may not match simulation behavior.
+# Warning: #  [1619]: The internal tri-state driving net DataReceived(4) is being replaced by a buffer because a high-impedance 'Z' state cannot be propagated across logic being driven by the net. This may not match simulation behavior.
+# Warning: #  [1619]: The internal tri-state driving net DataReceived(3) is being replaced by a buffer because a high-impedance 'Z' state cannot be propagated across logic being driven by the net. This may not match simulation behavior.
+# Warning: #  [1619]: The internal tri-state driving net DataReceived(2) is being replaced by a buffer because a high-impedance 'Z' state cannot be propagated across logic being driven by the net. This may not match simulation behavior.
+# Warning: #  [1619]: The internal tri-state driving net DataReceived(1) is being replaced by a buffer because a high-impedance 'Z' state cannot be propagated across logic being driven by the net. This may not match simulation behavior.
+# Warning: #  [1619]: The internal tri-state driving net DataReceived(0) is being replaced by a buffer because a high-impedance 'Z' state cannot be propagated across logic being driven by the net. This may not match simulation behavior.
+# Warning: #  [1619]: The internal tri-state driving net DataToSend(7) is being replaced by a buffer because a high-impedance 'Z' state cannot be propagated across logic being driven by the net. This may not match simulation behavior.
+# Warning: #  [1619]: The internal tri-state driving net DataToSend(6) is being replaced by a buffer because a high-impedance 'Z' state cannot be propagated across logic being driven by the net. This may not match simulation behavior.
+# Warning: #  [1619]: The internal tri-state driving net DataToSend(5) is being replaced by a buffer because a high-impedance 'Z' state cannot be propagated across logic being driven by the net. This may not match simulation behavior.
+# Warning: #  [1619]: The internal tri-state driving net DataToSend(4) is being replaced by a buffer because a high-impedance 'Z' state cannot be propagated across logic being driven by the net. This may not match simulation behavior.
+# Warning: #  [1619]: The internal tri-state driving net DataToSend(3) is being replaced by a buffer because a high-impedance 'Z' state cannot be propagated across logic being driven by the net. This may not match simulation behavior.
+# Warning: #  [1619]: The internal tri-state driving net DataToSend(2) is being replaced by a buffer because a high-impedance 'Z' state cannot be propagated across logic being driven by the net. This may not match simulation behavior.
+# Warning: #  [1619]: The internal tri-state driving net DataToSend(1) is being replaced by a buffer because a high-impedance 'Z' state cannot be propagated across logic being driven by the net. This may not match simulation behavior.
+# Warning: #  [1619]: The internal tri-state driving net DataToSend(0) is being replaced by a buffer because a high-impedance 'Z' state cannot be propagated across logic being driven by the net. This may not match simulation behavior.
+# Info: [1620]: Number of tristates replaced by buffers: 16.
+# Info: [15002]: Optimizing design view:.projet_i2cip_lib.Z_ClockGenerator.arch_unfold_913
+# Info: [15002]: Optimizing design view:.projet_i2cip_lib.Z_Emission_Reception_notri.arch_unfold_912
+# Warning: #  [1619]: The internal tri-state driving net Stuck_Data(7) is being replaced by a buffer because a high-impedance 'Z' state cannot be propagated across logic being driven by the net. This may not match simulation behavior.
+# Warning: #  [1619]: The internal tri-state driving net Stuck_Data(6) is being replaced by a buffer because a high-impedance 'Z' state cannot be propagated across logic being driven by the net. This may not match simulation behavior.
+# Warning: #  [1619]: The internal tri-state driving net Stuck_Data(5) is being replaced by a buffer because a high-impedance 'Z' state cannot be propagated across logic being driven by the net. This may not match simulation behavior.
+# Warning: #  [1619]: The internal tri-state driving net Stuck_Data(4) is being replaced by a buffer because a high-impedance 'Z' state cannot be propagated across logic being driven by the net. This may not match simulation behavior.
+# Warning: #  [1619]: The internal tri-state driving net Stuck_Data(3) is being replaced by a buffer because a high-impedance 'Z' state cannot be propagated across logic being driven by the net. This may not match simulation behavior.
+# Warning: #  [1619]: The internal tri-state driving net Stuck_Data(2) is being replaced by a buffer because a high-impedance 'Z' state cannot be propagated across logic being driven by the net. This may not match simulation behavior.
+# Warning: #  [1619]: The internal tri-state driving net Stuck_Data(1) is being replaced by a buffer because a high-impedance 'Z' state cannot be propagated across logic being driven by the net. This may not match simulation behavior.
+# Warning: #  [1619]: The internal tri-state driving net Stuck_Data(0) is being replaced by a buffer because a high-impedance 'Z' state cannot be propagated across logic being driven by the net. This may not match simulation behavior.
+# Info: [1620]: Number of tristates replaced by buffers: 8.
+# Info: [4557]: 4 Instances are flattened in hierarchical block .projet_i2cip_lib.Z_I2C_IP.struct.
+# Info: [15002]: Optimizing design view:.projet_i2cip_lib.Z_I2C_IP.struct
+# Info: [8010]: Gated clock transformations: Begin...
+# Info: [8021]: Ripple clock net:U_2.SCK_intern converted into clock net and enable net.
+# Info: [8010]: Gated clock transformations: End...
+# Info: [8053]: Added global buffer BUFGP for Port port:Clk
+# Info: [1079]: Constraints: Precision will generate the constraint: create_clock [get_pins {U_2/ix792z1361/O}] -name {U_2/ix792z1361/O} -period 10 -waveform {0 5} on portinst:U_2.ix792z1361.O. Reason: Generated clock information cannot be computed. Hence, global frequency setting is used. Please override the constraint if needed.
+# Info: [1078]: Constraints: Precision will generate the constraint: create_generated_clock -name {U_2/reg_tmp/Q} -source [get_ports {Clk}] -multiply_by 1 -divide_by 2 -duty_cycle 50 [get_pins {U_2/reg_tmp/Q}] on portinst:U_2.reg_tmp.Q. Reason: Clock is generated from a flip flop. Please override the constraint if needed.
+# Info: [1081]: Constraints: Precision will generate the following clock domain information against the clocks. Since the clock domain information is not provided by the user for the below clocks, all clocks are assumed to be synchronous clocks. This will result in all paths between the clock domains to be analyzed for timing. If this behaviour is not intended for any clock domain or path, please override using -domain option or false path constraint. Among these clocks, clock with the smallest period will be chosen as the default domain and the rest of the clock periods specified using multiply-by or divide-by factor.
+# Info: Constraints: Precision Generated Clock Domains:
+# Info: 	Domain Name: Clk_PS		Clock Name: Clk Clock Name: U_2/ix5/out Clock Name: U_2/ix792z1361/O
+# Info: [3027]: Writing file: C:/Users/E21C396C/Desktop/Projet_I2CIP/Projet_I2CIP_lib/ps/Z_I2C_IP_struct/Z_I2C_IP_struct_impl_2/Z_I2C_IP.edf.
+# Info: [3027]: Writing file: C:/Users/E21C396C/Desktop/Projet_I2CIP/Projet_I2CIP_lib/ps/Z_I2C_IP_struct/Z_I2C_IP_struct_impl_2/Z_I2C_IP.xdc.
+# Info: -- Writing file C:/Users/E21C396C/Desktop/Projet_I2CIP/Projet_I2CIP_lib/ps/Z_I2C_IP_struct/Z_I2C_IP_struct_impl_2/Z_I2C_IP.tcl
+# Info: [12045]: Starting timing reports generation...
+# Info: [12046]: Timing reports generation done.
+# Info: [12048]: POST-SYNTHESIS TIMING REPORTS ARE ESTIMATES AND SHOULD NOT BE RELIED ON TO MAKE QoR DECISIONS. For accurate timing information, please run place-and-route (P&R) and review P&R generated timing reports.
+# Info: [671]: Finished synthesizing design.
+# Info: [11019]: Total CPU time for synthesis: 4.6 s secs.
+# Info: [11020]: Overall running time for synthesis: 5.6 s secs.
+# Info: HDL Designer Synthesis run finished
+source C:/Users/E21C396C/Desktop/Projet_I2CIP/Projet_I2CIP_lib/ps/Z_I2C_IP_struct/hds/precision.tcl
+# COMMAND: save_project
+# Info: [9565]: Saved implementation Z_I2C_IP_struct_impl_2 in project C:/Users/E21C396C/Desktop/Projet_I2CIP/Projet_I2CIP_lib/ps/Z_I2C_IP_struct/Z_I2C_IP_struct.psp.
+save_project
+# COMMAND: close_project -discard

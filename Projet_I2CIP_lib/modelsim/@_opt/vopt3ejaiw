@@ -1,0 +1,795 @@
+m255
+K4
+z0
+13
+cModel Technology
+dC:/MentorGraphics/HDS_2018.2/bin
+T_opt
+!s110 1668852903
+VoTn[aFhNcNcSC2?=BNVRD0
+04 16 6 work z_controleur_i2c struct 1
+=1-b0227a882175-6378aca7-7e-29f4
+o-quiet +acc -auto_acc_if_foreign -work Projet_I2CIP_lib -L Projet_I2CIP_lib
+tCvgOpt 0
+n@_opt
+OL;O;10.6d;65
+Econtroleur_i2c_testeur
+Z0 w1668701410
+Z1 DPx4 ieee 11 numeric_std 0 22 :ASDNFgHXf_ih3J@9F3Ze1
+Z2 DPx16 projet_i2cip_lib 11 i2c_package 0 22 8fo@eAR]X`bZY0YEb?bX<2
+Z3 DPx4 ieee 15 std_logic_arith 0 22 [G314=:2zXJ`VORJe1J@Z1
+Z4 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z5 DPx4 ieee 14 std_logic_1164 0 22 eNV`TJ_GofJTzYa?f<@Oe1
+Z6 dC:/Users/CHAIMA/Desktop/Projet_I2CIP/Projet_I2CIP_lib/modelsim
+Z7 8C:/Users/CHAIMA/Desktop/Projet_I2CIP/Projet_I2CIP_lib/hdl/controleur_i2c_testeur_struct.vhd
+Z8 FC:/Users/CHAIMA/Desktop/Projet_I2CIP/Projet_I2CIP_lib/hdl/controleur_i2c_testeur_struct.vhd
+l0
+L15
+VO8Ai;>Z]Kgfh5RLNI=ea93
+!s100 GB19eB;FWEPi9@z1g<XHg2
+Z9 OL;C;10.6d;65
+33
+Z10 !s110 1668811268
+!i10b 1
+Z11 !s108 1668811268.000000
+Z12 !s90 -work|Projet_I2CIP_lib|-nologo|-2008|-f|C:/Users/CHAIMA/AppData/Local/Temp/Files0|
+Z13 !s107 C:/Users/CHAIMA/Desktop/Projet_I2CIP/Projet_I2CIP_lib/hdl/controleur_i2c_testeur_struct.vhd|C:/Users/CHAIMA/Desktop/Projet_I2CIP/Projet_I2CIP_lib/hdl/i2c_ip_struct.vhd|C:/Users/CHAIMA/Desktop/Projet_I2CIP/Projet_I2CIP_lib/hdl/gestionhorloge_generatedinstance.vhd|C:/Users/CHAIMA/Desktop/Projet_I2CIP/Projet_I2CIP_lib/hdl/emission_reception_generatedinstance.vhd|C:/Users/CHAIMA/Desktop/Projet_I2CIP/Projet_I2CIP_lib/hdl/interface_struct.vhd|C:/Users/CHAIMA/Desktop/Projet_I2CIP/Projet_I2CIP_lib/hdl/Read_arch.vhd|C:/Users/CHAIMA/Desktop/Projet_I2CIP/Projet_I2CIP_lib/hdl/Write_arch.vhd|C:/Users/CHAIMA/Desktop/Projet_I2CIP/Projet_I2CIP_lib/hdl/Environnement_arch.vhd|C:/Users/CHAIMA/Desktop/Projet_I2CIP/Projet_I2CIP_lib/hdl/I2C_Package_pkg.vhd|
+!i113 0
+Z14 o-nologo -work Projet_I2CIP_lib -2008
+Z15 tExplicit 1 CvgOpt 0
+Astruct
+DEx16 projet_i2cip_lib 6 i2c_ip 0 22 8YJ8nCf5HjX[VFLM]JdMc0
+DEx16 projet_i2cip_lib 13 environnement 0 22 fIS7ZmF37g3?:hRo>29jC3
+DEx4 work 22 controleur_i2c_testeur 0 22 O8Ai;>Z]Kgfh5RLNI=ea93
+R1
+R2
+R3
+R4
+R5
+l94
+L41
+Vjbehemn5]oQJjSoSMWGM^2
+!s100 Fa`LB>Nb6GVnd`LNnaeND0
+R9
+33
+R10
+!i10b 1
+R11
+R12
+R13
+!i113 0
+R14
+R15
+Eemission_reception
+Z16 w1668696906
+R1
+R2
+R3
+R4
+R5
+R6
+Z17 8C:/Users/CHAIMA/Desktop/Projet_I2CIP/Projet_I2CIP_lib/hdl/emission_reception_generatedinstance.vhd
+Z18 FC:/Users/CHAIMA/Desktop/Projet_I2CIP/Projet_I2CIP_lib/hdl/emission_reception_generatedinstance.vhd
+l0
+L15
+Vcbz<hDZ8R:j7F251^^eD;3
+!s100 9fcCngWHG2<h22^Sml7X_3
+R9
+33
+R10
+!i10b 1
+R11
+R12
+R13
+!i113 0
+R14
+R15
+Ageneratedinstance
+R1
+R2
+R3
+R4
+R5
+DEx4 work 18 emission_reception 0 22 cbz<hDZ8R:j7F251^^eD;3
+l34
+L33
+VlnTGOLWaY=P7MP8@Jblh]3
+!s100 5T^0NQDjL]_i3e^lf?a;Y3
+R9
+33
+R10
+!i10b 1
+R11
+R12
+R13
+!i113 0
+R14
+R15
+Eenvironnement
+Z19 w1668701402
+R1
+R2
+R3
+R4
+R5
+R6
+Z20 8C:/Users/CHAIMA/Desktop/Projet_I2CIP/Projet_I2CIP_lib/hdl/Environnement_arch.vhd
+Z21 FC:/Users/CHAIMA/Desktop/Projet_I2CIP/Projet_I2CIP_lib/hdl/Environnement_arch.vhd
+l0
+L16
+VfIS7ZmF37g3?:hRo>29jC3
+!s100 RGc4jBWNLJD`FjNVPI4=c0
+R9
+33
+R10
+!i10b 1
+R11
+R12
+R13
+!i113 0
+R14
+R15
+Aarch
+R1
+R2
+R3
+R4
+R5
+DEx4 work 13 environnement 0 22 fIS7ZmF37g3?:hRo>29jC3
+l38
+L34
+VA;VWzo`5JO0Z1PPH6zk`M0
+!s100 AHjXOJB2BVgjk=OAUh=]h0
+R9
+33
+R10
+!i10b 1
+R11
+R12
+R13
+!i113 0
+R14
+R15
+Egestionhorloge
+R16
+R1
+R2
+R3
+R4
+R5
+R6
+Z22 8C:/Users/CHAIMA/Desktop/Projet_I2CIP/Projet_I2CIP_lib/hdl/gestionhorloge_generatedinstance.vhd
+Z23 FC:/Users/CHAIMA/Desktop/Projet_I2CIP/Projet_I2CIP_lib/hdl/gestionhorloge_generatedinstance.vhd
+l0
+L15
+V7]=ImhKLf5Pl^Po0Yol_S2
+!s100 ?GHnZSezJB8_n^8IcIGi_1
+R9
+33
+R10
+!i10b 1
+R11
+R12
+R13
+!i113 0
+R14
+R15
+Ageneratedinstance
+R1
+R2
+R3
+R4
+R5
+DEx4 work 14 gestionhorloge 0 22 7]=ImhKLf5Pl^Po0Yol_S2
+l29
+L28
+V<>nAaM3j>l]2M>j_blKFo1
+!s100 iWOGg@[Xda7ZkcbQDiJ621
+R9
+33
+R10
+!i10b 1
+R11
+R12
+R13
+!i113 0
+R14
+R15
+Ei2c_ip
+Z24 w1668700416
+R1
+R2
+R3
+R4
+R5
+R6
+Z25 8C:/Users/CHAIMA/Desktop/Projet_I2CIP/Projet_I2CIP_lib/hdl/i2c_ip_struct.vhd
+Z26 FC:/Users/CHAIMA/Desktop/Projet_I2CIP/Projet_I2CIP_lib/hdl/i2c_ip_struct.vhd
+l0
+L15
+V8YJ8nCf5HjX[VFLM]JdMc0
+!s100 >QC]gKTC5UfAJ;F1c`JfB1
+R9
+33
+R10
+!i10b 1
+R11
+R12
+R13
+!i113 0
+R14
+R15
+Astruct
+DEx16 projet_i2cip_lib 9 interface 0 22 d_7VH76QH=7CZm3m<j@bD1
+DEx16 projet_i2cip_lib 14 gestionhorloge 0 22 7]=ImhKLf5Pl^Po0Yol_S2
+DEx16 projet_i2cip_lib 18 emission_reception 0 22 cbz<hDZ8R:j7F251^^eD;3
+DEx4 work 6 i2c_ip 0 22 8YJ8nCf5HjX[VFLM]JdMc0
+R1
+R2
+R3
+R4
+R5
+l112
+L50
+V4CoAAMHMG^@aEMifkUJE]3
+!s100 Zi@L];0j<ClAXU0k;[O<_3
+R9
+33
+R10
+!i10b 1
+R11
+R12
+R13
+!i113 0
+R14
+R15
+Pi2c_package
+R1
+R4
+R5
+w1668811691
+R6
+8C:/Users/CHAIMA/Desktop/Projet_I2CIP/Projet_I2CIP_lib/hdl/I2C_Package_pkg.vhd
+FC:/Users/CHAIMA/Desktop/Projet_I2CIP/Projet_I2CIP_lib/hdl/I2C_Package_pkg.vhd
+l0
+L13
+VT=>aN3;G8I`;<j?ZAl5Be2
+!s100 RdfHgV?M3^7@<AlK_2[8i3
+R9
+33
+Z27 !s110 1668852886
+!i10b 1
+Z28 !s108 1668852886.000000
+R12
+!s107 C:/Users/CHAIMA/Desktop/Projet_I2CIP/Projet_I2CIP_lib/hdl/I2C_Package_pkg.vhd|
+!i113 0
+R14
+R15
+Einterface
+R24
+R1
+R2
+R3
+R4
+R5
+R6
+Z29 8C:/Users/CHAIMA/Desktop/Projet_I2CIP/Projet_I2CIP_lib/hdl/interface_struct.vhd
+Z30 FC:/Users/CHAIMA/Desktop/Projet_I2CIP/Projet_I2CIP_lib/hdl/interface_struct.vhd
+l0
+L15
+Vd_7VH76QH=7CZm3m<j@bD1
+!s100 T35zKPQNo_LdSiLLJA6MC3
+R9
+33
+R10
+!i10b 1
+R11
+R12
+R13
+!i113 0
+R14
+R15
+Astruct
+DEx16 projet_i2cip_lib 5 write 0 22 dh4la<c04JSYzU4kg51>m2
+DEx16 projet_i2cip_lib 4 read 0 22 1]]@j9Zb8;UMDOPX0kaS:1
+DEx4 work 9 interface 0 22 d_7VH76QH=7CZm3m<j@bD1
+R1
+R2
+R3
+R4
+R5
+l98
+L53
+VG1Vn<7hLG]oT7U2``O_3m3
+!s100 G>8eZQS<cI;Wz0MOe8o9@3
+R9
+33
+R10
+!i10b 1
+R11
+R12
+R13
+!i113 0
+R14
+R15
+Eread
+Z31 w1668693978
+R1
+R2
+R3
+R4
+R5
+R6
+Z32 8C:/Users/CHAIMA/Desktop/Projet_I2CIP/Projet_I2CIP_lib/hdl/Read_arch.vhd
+Z33 FC:/Users/CHAIMA/Desktop/Projet_I2CIP/Projet_I2CIP_lib/hdl/Read_arch.vhd
+l0
+L16
+V1]]@j9Zb8;UMDOPX0kaS:1
+!s100 ?4Oj140d=Obj@`i8e`4R71
+R9
+33
+R10
+!i10b 1
+R11
+R12
+R13
+!i113 0
+R14
+R15
+Aarch
+R1
+R2
+R3
+R4
+R5
+DEx4 work 4 read 0 22 1]]@j9Zb8;UMDOPX0kaS:1
+l35
+L34
+VZ4ccOMgV_5UK@]^Ro?ml71
+!s100 QPb9lFCYm2nQQmcmOG3N_0
+R9
+33
+R10
+!i10b 1
+R11
+R12
+R13
+!i113 0
+R14
+R15
+Ewrite
+Z34 w1668700388
+R1
+R2
+R3
+R4
+R5
+R6
+Z35 8C:/Users/CHAIMA/Desktop/Projet_I2CIP/Projet_I2CIP_lib/hdl/Write_arch.vhd
+Z36 FC:/Users/CHAIMA/Desktop/Projet_I2CIP/Projet_I2CIP_lib/hdl/Write_arch.vhd
+l0
+L16
+Vdh4la<c04JSYzU4kg51>m2
+!s100 hAEI<0Kb<lz=n:CGLdkXC1
+R9
+33
+R10
+!i10b 1
+R11
+R12
+R13
+!i113 0
+R14
+R15
+Aarch
+R1
+R2
+R3
+R4
+R5
+DEx4 work 5 write 0 22 dh4la<c04JSYzU4kg51>m2
+l38
+L37
+VahnQ`^ZMgC_R[m>V0d0SJ3
+!s100 1nzeTj?_L5Fb=0XV46b:Q3
+R9
+33
+R10
+!i10b 1
+R11
+R12
+R13
+!i113 0
+R14
+R15
+Ez_clockgenerator
+Z37 w1668852852
+R1
+Z38 DPx16 projet_i2cip_lib 11 i2c_package 0 22 T=>aN3;G8I`;<j?ZAl5Be2
+R3
+R4
+R5
+R6
+Z39 8C:/Users/CHAIMA/Desktop/Projet_I2CIP/Projet_I2CIP_lib/hdl/Z_ClockGenerator_arch.vhd
+Z40 FC:/Users/CHAIMA/Desktop/Projet_I2CIP/Projet_I2CIP_lib/hdl/Z_ClockGenerator_arch.vhd
+l0
+L16
+V^[MjFdQ5WDJc2O@X<FjOj2
+!s100 K[]GFOTfb5ogCW:PeagTM3
+R9
+31
+Z41 !s110 1668852887
+!i10b 1
+R28
+Z42 !s90 -work|Projet_I2CIP_lib|-nologo|-93|-f|C:/Users/CHAIMA/AppData/Local/Temp/Files1|
+Z43 !s107 C:/Users/CHAIMA/Desktop/Projet_I2CIP/Projet_I2CIP_lib/hdl/z_controleur_i2c_struct.vhd|C:/Users/CHAIMA/Desktop/Projet_I2CIP/Projet_I2CIP_lib/hdl/z_i2c_ip_struct.vhd|C:/Users/CHAIMA/Desktop/Projet_I2CIP/Projet_I2CIP_lib/hdl/Z_ClockGenerator_arch.vhd|C:/Users/CHAIMA/Desktop/Projet_I2CIP/Projet_I2CIP_lib/hdl/z_emission_reception_generatedinstance.vhd|C:/Users/CHAIMA/Desktop/Projet_I2CIP/Projet_I2CIP_lib/hdl/z_interface_struct.vhd|C:/Users/CHAIMA/Desktop/Projet_I2CIP/Projet_I2CIP_lib/hdl/Z_Write_arch.vhd|C:/Users/CHAIMA/Desktop/Projet_I2CIP/Projet_I2CIP_lib/hdl/Z_Read_arch.vhd|C:/Users/CHAIMA/Desktop/Projet_I2CIP/Projet_I2CIP_lib/hdl/Z_Environement_arch.vhd|
+!i113 0
+Z44 o-nologo -work Projet_I2CIP_lib -93
+R15
+Aarch
+R1
+R38
+R3
+R4
+R5
+DEx4 work 16 z_clockgenerator 0 22 ^[MjFdQ5WDJc2O@X<FjOj2
+l32
+L29
+VfiQodh1oRZ3@X?4nY:lUO3
+!s100 :LSJmdPGZDCgTc?dd0P:Q0
+R9
+31
+R41
+!i10b 1
+R28
+R42
+R43
+!i113 0
+R44
+R15
+Ageneratedinstance
+R1
+R38
+R3
+R4
+R5
+DEx4 work 16 z_clockgenerator 0 22 <U[dY8R<:;5WL7@U>ZalA0
+l29
+L28
+VICQHX]A;k^U8iOAlDZ8;J0
+!s100 Vl:R7;^NR4=F>@YF0T;^E0
+R9
+31
+!s110 1668811990
+!i10b 1
+!s108 1668811990.000000
+R42
+!s107 C:/Users/CHAIMA/Desktop/Projet_I2CIP/Projet_I2CIP_lib/hdl/z_controleur_i2c_struct.vhd|C:/Users/CHAIMA/Desktop/Projet_I2CIP/Projet_I2CIP_lib/hdl/z_i2c_ip_struct.vhd|C:/Users/CHAIMA/Desktop/Projet_I2CIP/Projet_I2CIP_lib/hdl/z_clockgenerator_generatedinstance.vhd|C:/Users/CHAIMA/Desktop/Projet_I2CIP/Projet_I2CIP_lib/hdl/z_emission_reception_generatedinstance.vhd|C:/Users/CHAIMA/Desktop/Projet_I2CIP/Projet_I2CIP_lib/hdl/z_interface_struct.vhd|C:/Users/CHAIMA/Desktop/Projet_I2CIP/Projet_I2CIP_lib/hdl/Z_Write_arch.vhd|C:/Users/CHAIMA/Desktop/Projet_I2CIP/Projet_I2CIP_lib/hdl/Z_Read_arch.vhd|C:/Users/CHAIMA/Desktop/Projet_I2CIP/Projet_I2CIP_lib/hdl/Z_Environement_arch.vhd|
+!i113 0
+R44
+R15
+FC:/Users/CHAIMA/Desktop/Projet_I2CIP/Projet_I2CIP_lib/hdl/z_clockgenerator_generatedinstance.vhd
+Z45 w1668808689
+8C:/Users/CHAIMA/Desktop/Projet_I2CIP/Projet_I2CIP_lib/hdl/z_clockgenerator_generatedinstance.vhd
+Ez_controleur_i2c
+Z46 w1668852878
+R1
+R38
+R3
+R4
+R5
+R6
+Z47 8C:/Users/CHAIMA/Desktop/Projet_I2CIP/Projet_I2CIP_lib/hdl/z_controleur_i2c_struct.vhd
+Z48 FC:/Users/CHAIMA/Desktop/Projet_I2CIP/Projet_I2CIP_lib/hdl/z_controleur_i2c_struct.vhd
+l0
+L15
+V`oZJc1YIzM_nl^S`d2Pk[3
+!s100 n;1cR5I4Iia`HcWFz<JVQ2
+R9
+31
+R41
+!i10b 1
+R28
+R42
+R43
+!i113 0
+R44
+R15
+Astruct
+DEx16 projet_i2cip_lib 8 z_i2c_ip 0 22 aG5N6`58goAfJh[k4Io@N2
+DEx16 projet_i2cip_lib 14 z_environement 0 22 [N73@G<GRJg1T]PBM56PW1
+DEx4 work 16 z_controleur_i2c 0 22 `oZJc1YIzM_nl^S`d2Pk[3
+R1
+R38
+R3
+R4
+R5
+l94
+L41
+V40lzH8kFm126CRBMPE=Xe1
+!s100 c71R??kH3e[4WM9YfY6EO1
+R9
+31
+R41
+!i10b 1
+R28
+R42
+R43
+!i113 0
+R44
+R15
+Ez_emission_reception
+Z49 w1668814664
+R1
+R38
+R3
+R4
+R5
+R6
+Z50 8C:/Users/CHAIMA/Desktop/Projet_I2CIP/Projet_I2CIP_lib/hdl/z_emission_reception_generatedinstance.vhd
+Z51 FC:/Users/CHAIMA/Desktop/Projet_I2CIP/Projet_I2CIP_lib/hdl/z_emission_reception_generatedinstance.vhd
+l0
+L15
+V@NYLeW]Ub<;ce:b^@m<eZ0
+!s100 EPc38]ZVf9P833d_5<n1l2
+R9
+31
+R41
+!i10b 1
+R28
+R42
+R43
+!i113 0
+R44
+R15
+Ageneratedinstance
+R1
+R38
+R3
+R4
+R5
+DEx4 work 20 z_emission_reception 0 22 @NYLeW]Ub<;ce:b^@m<eZ0
+l34
+L33
+V>0P;:N`ZeiO3G77cVCCbI1
+!s100 5hGnzgB@N__]68j@7C81@0
+R9
+31
+R41
+!i10b 1
+R28
+R42
+R43
+!i113 0
+R44
+R15
+Ez_environement
+Z52 w1668852671
+R1
+R38
+R3
+R4
+R5
+R6
+Z53 8C:/Users/CHAIMA/Desktop/Projet_I2CIP/Projet_I2CIP_lib/hdl/Z_Environement_arch.vhd
+Z54 FC:/Users/CHAIMA/Desktop/Projet_I2CIP/Projet_I2CIP_lib/hdl/Z_Environement_arch.vhd
+l0
+L16
+V[N73@G<GRJg1T]PBM56PW1
+!s100 mUkLLbePbkX5zTo:cRV5<2
+R9
+31
+R27
+!i10b 1
+R28
+R42
+R43
+!i113 0
+R44
+R15
+Aarch
+R1
+R38
+R3
+R4
+R5
+DEx4 work 14 z_environement 0 22 [N73@G<GRJg1T]PBM56PW1
+l37
+L34
+VlkgRTJla=J3RbLoEY1go50
+!s100 B4?49^43116TU4ejI0K9n1
+R9
+31
+R27
+!i10b 1
+R28
+R42
+R43
+!i113 0
+R44
+R15
+Ez_i2c_ip
+R46
+R1
+R38
+R3
+R4
+R5
+R6
+Z55 8C:/Users/CHAIMA/Desktop/Projet_I2CIP/Projet_I2CIP_lib/hdl/z_i2c_ip_struct.vhd
+Z56 FC:/Users/CHAIMA/Desktop/Projet_I2CIP/Projet_I2CIP_lib/hdl/z_i2c_ip_struct.vhd
+l0
+L15
+VaG5N6`58goAfJh[k4Io@N2
+!s100 O5KT3Ah=0YM?DRecR]_6f3
+R9
+31
+R41
+!i10b 1
+R28
+R42
+R43
+!i113 0
+R44
+R15
+Astruct
+DEx16 projet_i2cip_lib 11 z_interface 0 22 7cWj3Qlf5hGe]KCZ:?3]A0
+DEx16 projet_i2cip_lib 20 z_emission_reception 0 22 @NYLeW]Ub<;ce:b^@m<eZ0
+DEx16 projet_i2cip_lib 16 z_clockgenerator 0 22 ^[MjFdQ5WDJc2O@X<FjOj2
+DEx4 work 8 z_i2c_ip 0 22 aG5N6`58goAfJh[k4Io@N2
+R1
+R38
+R3
+R4
+R5
+l112
+L50
+VOk4aVb9kN90=ANlBIdRCg3
+!s100 `bRKkQM0bf=82RkCD_?PU1
+R9
+31
+R41
+!i10b 1
+R28
+R42
+R43
+!i113 0
+R44
+R15
+Ez_interface
+R45
+R1
+R38
+R3
+R4
+R5
+R6
+Z57 8C:/Users/CHAIMA/Desktop/Projet_I2CIP/Projet_I2CIP_lib/hdl/z_interface_struct.vhd
+Z58 FC:/Users/CHAIMA/Desktop/Projet_I2CIP/Projet_I2CIP_lib/hdl/z_interface_struct.vhd
+l0
+L15
+V7cWj3Qlf5hGe]KCZ:?3]A0
+!s100 7l9WOWaC6bIo^b5Cn=gJK3
+R9
+31
+R41
+!i10b 1
+R28
+R42
+R43
+!i113 0
+R44
+R15
+Astruct
+DEx16 projet_i2cip_lib 7 z_write 0 22 MYCPMDbVn[Nd3hh`M?_S90
+DEx16 projet_i2cip_lib 6 z_read 0 22 KB@ZU?d^FV2L0@S2I[@Wm2
+DEx4 work 11 z_interface 0 22 7cWj3Qlf5hGe]KCZ:?3]A0
+R1
+R38
+R3
+R4
+R5
+l98
+L53
+VK68O[4?0f9Zm7ODTEl^O@1
+!s100 TgLNbLg_GYnLQeI[6nbda1
+R9
+31
+R41
+!i10b 1
+R28
+R42
+R43
+!i113 0
+R44
+R15
+Ez_read
+Z59 w1668808589
+R1
+R38
+R3
+R4
+R5
+R6
+Z60 8C:/Users/CHAIMA/Desktop/Projet_I2CIP/Projet_I2CIP_lib/hdl/Z_Read_arch.vhd
+Z61 FC:/Users/CHAIMA/Desktop/Projet_I2CIP/Projet_I2CIP_lib/hdl/Z_Read_arch.vhd
+l0
+L16
+VKB@ZU?d^FV2L0@S2I[@Wm2
+!s100 N5Y9E>9[joall8o_;ZRP71
+R9
+31
+R41
+!i10b 1
+R28
+R42
+R43
+!i113 0
+R44
+R15
+Aarch
+R1
+R38
+R3
+R4
+R5
+DEx4 work 6 z_read 0 22 KB@ZU?d^FV2L0@S2I[@Wm2
+l36
+L35
+VQVJPfg`>X9Ia?ZR6g`>>@0
+!s100 odBNW439jAHi?DKDBNQRE1
+R9
+31
+R41
+!i10b 1
+R28
+R42
+R43
+!i113 0
+R44
+R15
+Ez_write
+Z62 w1668808672
+R1
+R38
+R3
+R4
+R5
+R6
+Z63 8C:/Users/CHAIMA/Desktop/Projet_I2CIP/Projet_I2CIP_lib/hdl/Z_Write_arch.vhd
+Z64 FC:/Users/CHAIMA/Desktop/Projet_I2CIP/Projet_I2CIP_lib/hdl/Z_Write_arch.vhd
+l0
+L16
+VMYCPMDbVn[Nd3hh`M?_S90
+!s100 W;k9h91H1SP>IzGo^cRek1
+R9
+31
+R41
+!i10b 1
+R28
+R42
+R43
+!i113 0
+R44
+R15
+Aarch
+R1
+R38
+R3
+R4
+R5
+DEx4 work 7 z_write 0 22 MYCPMDbVn[Nd3hh`M?_S90
+l37
+L36
+VlBZ_<c]3BDM9L:KcO7:l?3
+!s100 RgDd3e0lm0a^_z`D_WDBn3
+R9
+31
+R41
+!i10b 1
+R28
+R42
+R43
+!i113 0
+R44
+R15

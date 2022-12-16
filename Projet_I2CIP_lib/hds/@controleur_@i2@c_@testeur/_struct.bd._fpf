@@ -1,0 +1,12 @@
+ARCHITECTURES list {
+ {controleur_i2c_testeur struct} list {
+  TASK_SETTINGS list {
+   PLUGIN_SETTINGS list {
+    ModelSimSimulator atom {TaskSetting Arguments {} TaskSetting Arguments1 {C:\Users\CHAIMA\Desktop\Modelsim.SE.v10.4.x64_AsanDl.com\install\Setup.exe} TaskSetting Arguments2 {C:\modeltech64_10.4\win64\modelsim.exe} TaskSetting Communication 1 TaskSetting DelaySelection typ TaskSetting GlitchGeneration 1 TaskSetting InitCmd {} TaskSetting LogFile {} TaskSetting RemoteHost {} TaskSetting Resolution 100ns TaskSetting SdfDelay typ TaskSetting SdfMultiSrcDelay latest TaskSetting SdfReduce 0 TaskSetting SdfWarnings 1 TaskSetting TimingChecks 1 TaskSetting UseBatch 0 TaskSetting UseCLI 0 TaskSetting UseGUI 1 TaskSetting VitalVersion 95 TaskSetting autoNames 1 TaskSetting coverage 0 TaskSetting excludePSL 0 TaskSetting exepath {C:\Apps\modeltech_pe_2022.1\win32pe} TaskSetting minimumSimSetting 0 TaskSetting saveReplayScript 0 TaskSetting useCustomSimDir 0}
+   }
+  }
+ }
+}
+INCLUDE list {
+ DEFAULT atom 1
+}

@@ -1,0 +1,7 @@
+Projet_I2CIP_lib "C:/Users/E21C396C/Desktop/Projet_I2CIP/Projet_I2CIP_lib/hdl/I2C_Package_pkg.vhd" -2008 
+Projet_I2CIP_lib "C:/Users/E21C396C/Desktop/Projet_I2CIP/Projet_I2CIP_lib/hdl/Z_Read_arch.vhd" -2002 
+Projet_I2CIP_lib "C:/Users/E21C396C/Desktop/Projet_I2CIP/Projet_I2CIP_lib/hdl/Z_Write_arch.vhd" -2002 
+Projet_I2CIP_lib "C:/Users/E21C396C/Desktop/Projet_I2CIP/Projet_I2CIP_lib/hdl/z_interface_struct.vhd" -2002 
+Projet_I2CIP_lib "C:/Users/E21C396C/Desktop/Projet_I2CIP/Projet_I2CIP_lib/hdl/Z_Emission_Reception_arch.vhd" -2002 
+Projet_I2CIP_lib "C:/Users/E21C396C/Desktop/Projet_I2CIP/Projet_I2CIP_lib/hdl/Z_ClockGenerator_arch.vhd" -2002 
+Projet_I2CIP_lib "C:/Users/E21C396C/Desktop/Projet_I2CIP/Projet_I2CIP_lib/hdl/z_i2c_ip_struct.vhd" -2002 

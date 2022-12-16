@@ -1,0 +1,167 @@
+DESIGN @interface
+VIEW interface
+NO_GRAPHIC 0
+DESIGN @interface
+VIEW interface
+GRAPHIC 50,0 8 0 
+DESIGN @interface
+VIEW interface
+GRAPHIC 252,0 16 0 
+DESIGN @interface
+VIEW interface
+GRAPHIC 257,0 17 0 
+DESIGN @interface
+VIEW interface
+GRAPHIC 267,0 18 0 
+DESIGN @interface
+VIEW interface
+GRAPHIC 307,0 19 0 
+DESIGN @interface
+VIEW interface
+GRAPHIC 312,0 20 0 
+DESIGN @interface
+VIEW interface
+GRAPHIC 282,0 21 0 
+DESIGN @interface
+VIEW interface
+GRAPHIC 287,0 22 0 
+DESIGN @interface
+VIEW interface
+GRAPHIC 292,0 23 0 
+DESIGN @interface
+VIEW interface
+GRAPHIC 297,0 24 0 
+DESIGN @interface
+VIEW interface
+GRAPHIC 302,0 25 0 
+DESIGN @interface
+VIEW interface
+GRAPHIC 262,0 26 0 
+DESIGN @interface
+VIEW interface
+GRAPHIC 272,0 27 0 
+DESIGN @interface
+VIEW interface
+GRAPHIC 317,0 28 0 
+DESIGN @interface
+VIEW interface
+GRAPHIC 277,0 29 0 
+DESIGN @interface
+VIEW interface
+GRAPHIC 1,0 32 0 
+DESIGN @interface
+VIEW interface
+GRAPHIC 1,0 33 0 
+DESIGN @interface
+VIEW struct.bd
+NO_GRAPHIC 36
+DESIGN @interface
+VIEW struct.bd
+GRAPHIC 265,0 45 0 
+DESIGN @interface
+VIEW struct.bd
+NO_GRAPHIC 50
+DESIGN @interface
+VIEW struct.bd
+GRAPHIC 0,0 52 2 
+DESIGN @interface
+VIEW struct.bd
+NO_GRAPHIC 57
+DESIGN @interface
+VIEW struct.bd
+NO_GRAPHIC 58
+LIBRARY Projet_I2CIP_lib
+DESIGN @read
+VIEW arch
+GRAPHIC 343,0 60 0 
+DESIGN @interface
+VIEW struct.bd
+GRAPHIC 375,0 62 0 
+DESIGN @interface
+VIEW struct.bd
+GRAPHIC 57,0 63 0 
+DESIGN @interface
+VIEW struct.bd
+GRAPHIC 391,0 64 0 
+DESIGN @interface
+VIEW struct.bd
+GRAPHIC 183,0 65 0 
+DESIGN @interface
+VIEW struct.bd
+GRAPHIC 367,0 66 0 
+DESIGN @interface
+VIEW struct.bd
+GRAPHIC 407,0 67 0 
+DESIGN @interface
+VIEW struct.bd
+GRAPHIC 399,0 68 0 
+DESIGN @interface
+VIEW struct.bd
+GRAPHIC 383,0 69 0 
+DESIGN @interface
+VIEW struct.bd
+GRAPHIC 359,0 70 0 
+DESIGN @interface
+VIEW struct.bd
+GRAPHIC 333,0 73 0 
+DESIGN @interface
+VIEW struct.bd
+GRAPHIC 15,0 75 0 
+DESIGN @interface
+VIEW struct.bd
+GRAPHIC 29,0 76 0 
+DESIGN @interface
+VIEW struct.bd
+GRAPHIC 85,0 77 0 
+DESIGN @interface
+VIEW struct.bd
+GRAPHIC 169,0 78 0 
+DESIGN @interface
+VIEW struct.bd
+GRAPHIC 99,0 79 0 
+DESIGN @interface
+VIEW struct.bd
+GRAPHIC 113,0 80 0 
+DESIGN @interface
+VIEW struct.bd
+GRAPHIC 127,0 81 0 
+DESIGN @interface
+VIEW struct.bd
+GRAPHIC 141,0 82 0 
+DESIGN @interface
+VIEW struct.bd
+GRAPHIC 155,0 83 0 
+DESIGN @interface
+VIEW struct.bd
+GRAPHIC 43,0 84 0 
+DESIGN @interface
+VIEW struct.bd
+GRAPHIC 71,0 85 0 
+DESIGN @interface
+VIEW struct.bd
+GRAPHIC 197,0 86 0 
+LIBRARY Projet_I2CIP_lib
+DESIGN @interface
+VIEW struct.bd
+NO_GRAPHIC 89
+DESIGN @interface
+VIEW struct.bd
+GRAPHIC 343,0 92 0 
+DESIGN @interface
+VIEW struct.bd
+GRAPHIC 333,0 93 0 
+DESIGN @interface
+VIEW struct.bd
+NO_GRAPHIC 96
+DESIGN @interface
+VIEW struct.bd
+NO_GRAPHIC 98
+DESIGN @interface
+VIEW struct.bd
+GRAPHIC 343,0 100 0 
+DESIGN @interface
+VIEW struct.bd
+GRAPHIC 333,0 112 0 
+DESIGN @interface
+VIEW struct.bd
+NO_GRAPHIC 128

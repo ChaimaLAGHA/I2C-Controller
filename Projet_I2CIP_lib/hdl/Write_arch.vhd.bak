@@ -1,0 +1,63 @@
+--
+-- VHDL Architecture Projet_I2CIP_lib.Write.arch
+--
+-- Created:
+--          by - E21C396C.UNKNOWN (irc107-04)
+--          at - 14:30:56 17/11/2022
+--
+-- using Mentor Graphics HDL Designer(TM) 2022.1 Built on 21 Jan 2022 at 13:00:30
+--
+LIBRARY ieee;
+USE ieee.std_logic_1164.all;
+USE ieee.std_logic_arith.all;
+LIBRARY Projet_I2CIP_lib;
+USE Projet_I2CIP_lib.I2C_Package.ALL;
+
+ENTITY Write IS
+   PORT( 
+      Addr              : IN     DefAddr;
+      Clk               : IN     DefBit;
+      Dbus              : IN     DefDbus;
+      RnW               : IN     DefBit;
+      nAS               : IN     DefBit;
+      nBE0              : IN     DefBit;
+      nBE1              : IN     DefBit;
+      nRst              : IN     DefBit;
+      nWait             : IN     DefBit;
+      Config            : OUT    DefConfig;
+      DataToSend        : OUT    DefData;
+      Transfert_Request : OUT    DefBit
+   );
+
+-- Declarations
+
+END Write ;
+
+--
+ARCHITECTURE arch OF Write IS
+BEGIN
+  WriteBehavior: process (nRst,Clk)
+  begin
+  --  if nRst='0' then
+--      DataToSend<=(others=>'0');
+--      els
+  if rising_edge(Clk)then
+      if nAS='0'and RnW='0'then
+        case Addr is
+          when I2C_Addr=>
+            DataToSend <= Dbus(DataBusSize-1 downto 8);
+          when I2C_Config=>
+            Config.NB_Donnees <= Dbus(7 downto 0);
+            Config.IT_Enable <= Dbus(8);
+            Config.Mode_Vitess <= Dbus(9);
+            Config.Sens_Echange <= Dbus(10);
+            Transfert_Request<= '1';
+          when I2C_DataToSend =>
+            DataToSend <= Dbus(DataBusSize-1 downto 8);
+          when others =>
+        end case;
+      end if;
+    end if;
+  end process WriteBehavior;
+END ARCHITECTURE arch;
+

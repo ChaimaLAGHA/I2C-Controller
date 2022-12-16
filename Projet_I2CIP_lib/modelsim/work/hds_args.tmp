@@ -1,0 +1,1 @@
+ -L Projet_I2CIP_lib -l ../transcript.txt -i -t ns -multisource_delay latest +typdelays Projet_I2CIP_lib.Z_Controleur_I2C(struct)

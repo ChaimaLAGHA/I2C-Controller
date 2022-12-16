@@ -1,0 +1,206 @@
+DESIGN @z_@i2@c_@i@p
+VIEW interface
+NO_GRAPHIC 0
+DESIGN @z_@i2@c_@i@p
+VIEW interface
+GRAPHIC 50,0 8 0 
+DESIGN @z_@i2@c_@i@p
+VIEW interface
+GRAPHIC 231,0 17 0 
+DESIGN @z_@i2@c_@i@p
+VIEW interface
+GRAPHIC 236,0 18 0 
+DESIGN @z_@i2@c_@i@p
+VIEW interface
+GRAPHIC 271,0 19 0 
+DESIGN @z_@i2@c_@i@p
+VIEW interface
+GRAPHIC 246,0 20 0 
+DESIGN @z_@i2@c_@i@p
+VIEW interface
+GRAPHIC 251,0 21 0 
+DESIGN @z_@i2@c_@i@p
+VIEW interface
+GRAPHIC 256,0 22 0 
+DESIGN @z_@i2@c_@i@p
+VIEW interface
+GRAPHIC 261,0 23 0 
+DESIGN @z_@i2@c_@i@p
+VIEW interface
+GRAPHIC 266,0 24 0 
+DESIGN @z_@i2@c_@i@p
+VIEW interface
+GRAPHIC 276,0 25 0 
+DESIGN @z_@i2@c_@i@p
+VIEW interface
+GRAPHIC 241,0 26 0 
+DESIGN @z_@i2@c_@i@p
+VIEW interface
+GRAPHIC 281,0 27 0 
+DESIGN @z_@i2@c_@i@p
+VIEW interface
+GRAPHIC 1,0 30 0 
+DESIGN @z_@i2@c_@i@p
+VIEW interface
+GRAPHIC 1,0 31 0 
+DESIGN @z_@i2@c_@i@p
+VIEW struct.bd
+NO_GRAPHIC 34
+DESIGN @z_@i2@c_@i@p
+VIEW struct.bd
+GRAPHIC 217,0 43 0 
+DESIGN @z_@i2@c_@i@p
+VIEW struct.bd
+NO_GRAPHIC 48
+DESIGN @z_@i2@c_@i@p
+VIEW struct.bd
+GRAPHIC 0,0 50 2 
+DESIGN @z_@i2@c_@i@p
+VIEW struct.bd
+GRAPHIC 369,0 55 0 
+DESIGN @z_@i2@c_@i@p
+VIEW struct.bd
+GRAPHIC 405,0 56 0 
+DESIGN @z_@i2@c_@i@p
+VIEW struct.bd
+GRAPHIC 403,0 57 0 
+DESIGN @z_@i2@c_@i@p
+VIEW struct.bd
+GRAPHIC 349,0 58 0 
+DESIGN @z_@i2@c_@i@p
+VIEW struct.bd
+GRAPHIC 381,0 59 0 
+DESIGN @z_@i2@c_@i@p
+VIEW struct.bd
+GRAPHIC 429,0 60 0 
+DESIGN @z_@i2@c_@i@p
+VIEW struct.bd
+NO_GRAPHIC 61
+DESIGN @z_@i2@c_@i@p
+VIEW struct.bd
+NO_GRAPHIC 62
+LIBRARY Projet_I2CIP_lib
+DESIGN @z_@clock@generator
+VIEW arch
+GRAPHIC 305,0 64 0 
+DESIGN @z_@i2@c_@i@p
+VIEW struct.bd
+GRAPHIC 315,0 66 0 
+DESIGN @z_@i2@c_@i@p
+VIEW struct.bd
+GRAPHIC 674,0 67 0 
+DESIGN @z_@i2@c_@i@p
+VIEW struct.bd
+GRAPHIC 421,0 68 0 
+DESIGN @z_@i2@c_@i@p
+VIEW struct.bd
+GRAPHIC 331,0 69 0 
+DESIGN @z_@i2@c_@i@p
+VIEW struct.bd
+GRAPHIC 341,0 70 0 
+DESIGN @z_@i2@c_@i@p
+VIEW struct.bd
+GRAPHIC 295,0 73 0 
+DESIGN @z_@i2@c_@i@p
+VIEW struct.bd
+GRAPHIC 323,0 75 0 
+DESIGN @z_@i2@c_@i@p
+VIEW struct.bd
+GRAPHIC 361,0 76 0 
+DESIGN @z_@i2@c_@i@p
+VIEW struct.bd
+GRAPHIC 385,0 77 0 
+DESIGN @z_@i2@c_@i@p
+VIEW struct.bd
+GRAPHIC 341,0 78 0 
+DESIGN @z_@i2@c_@i@p
+VIEW struct.bd
+GRAPHIC 351,0 79 0 
+DESIGN @z_@i2@c_@i@p
+VIEW struct.bd
+GRAPHIC 395,0 80 0 
+DESIGN @z_@i2@c_@i@p
+VIEW struct.bd
+GRAPHIC 141,0 81 0 
+DESIGN @z_@i2@c_@i@p
+VIEW struct.bd
+GRAPHIC 373,0 82 0 
+DESIGN @z_@i2@c_@i@p
+VIEW struct.bd
+GRAPHIC 155,0 83 0 
+DESIGN @z_@i2@c_@i@p
+VIEW struct.bd
+GRAPHIC 285,0 86 0 
+DESIGN @z_@i2@c_@i@p
+VIEW struct.bd
+GRAPHIC 15,0 88 0 
+DESIGN @z_@i2@c_@i@p
+VIEW struct.bd
+GRAPHIC 29,0 89 0 
+DESIGN @z_@i2@c_@i@p
+VIEW struct.bd
+GRAPHIC 395,0 90 0 
+DESIGN @z_@i2@c_@i@p
+VIEW struct.bd
+GRAPHIC 127,0 91 0 
+DESIGN @z_@i2@c_@i@p
+VIEW struct.bd
+GRAPHIC 373,0 92 0 
+DESIGN @z_@i2@c_@i@p
+VIEW struct.bd
+GRAPHIC 57,0 93 0 
+DESIGN @z_@i2@c_@i@p
+VIEW struct.bd
+GRAPHIC 71,0 94 0 
+DESIGN @z_@i2@c_@i@p
+VIEW struct.bd
+GRAPHIC 85,0 95 0 
+DESIGN @z_@i2@c_@i@p
+VIEW struct.bd
+GRAPHIC 99,0 96 0 
+DESIGN @z_@i2@c_@i@p
+VIEW struct.bd
+GRAPHIC 113,0 97 0 
+DESIGN @z_@i2@c_@i@p
+VIEW struct.bd
+GRAPHIC 361,0 98 0 
+DESIGN @z_@i2@c_@i@p
+VIEW struct.bd
+GRAPHIC 385,0 99 0 
+DESIGN @z_@i2@c_@i@p
+VIEW struct.bd
+GRAPHIC 421,0 100 0 
+DESIGN @z_@i2@c_@i@p
+VIEW struct.bd
+GRAPHIC 43,0 101 0 
+LIBRARY Projet_I2CIP_lib
+DESIGN @z_@i2@c_@i@p
+VIEW struct.bd
+NO_GRAPHIC 104
+DESIGN @z_@i2@c_@i@p
+VIEW struct.bd
+GRAPHIC 305,0 107 0 
+DESIGN @z_@i2@c_@i@p
+VIEW struct.bd
+GRAPHIC 295,0 108 0 
+DESIGN @z_@i2@c_@i@p
+VIEW struct.bd
+GRAPHIC 285,0 109 0 
+DESIGN @z_@i2@c_@i@p
+VIEW struct.bd
+NO_GRAPHIC 112
+DESIGN @z_@i2@c_@i@p
+VIEW struct.bd
+NO_GRAPHIC 114
+DESIGN @z_@i2@c_@i@p
+VIEW struct.bd
+GRAPHIC 305,0 116 0 
+DESIGN @z_@i2@c_@i@p
+VIEW struct.bd
+GRAPHIC 295,0 124 0 
+DESIGN @z_@i2@c_@i@p
+VIEW struct.bd
+GRAPHIC 285,0 136 0 
+DESIGN @z_@i2@c_@i@p
+VIEW struct.bd
+NO_GRAPHIC 154

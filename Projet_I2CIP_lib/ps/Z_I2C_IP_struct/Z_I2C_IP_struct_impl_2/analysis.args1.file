@@ -1,0 +1,12 @@
+8:-out_dir
+107:C:/Users/E21C396C/Desktop/Projet_I2CIP/Projet_I2CIP_lib/ps/Z_I2C_IP_struct/Z_I2C_IP_struct_impl_2//rtlc.out
+10:-pipe_flow
+2:-v
+81:C:/Apps/MentorGraphics/PS2021.2_64-bit/Mgc_home/pkgs/rtlc_psr/rtlc/lib/unimacro.v
+2:-v
+90:C:/Apps/MentorGraphics/PS2021.2_64-bit/Mgc_home/pkgs/rtlc_psr/rtlc/lib/xcv7_retarget_lib.v
+25:-comment_transoff_regions
+13:-lib_map_file
+107:C:/Users/E21C396C/Desktop/Projet_I2CIP/Projet_I2CIP_lib/ps/Z_I2C_IP_struct/Z_I2C_IP_struct_impl_2//.jaguarc
+142:+incdir+C:/Users/E21C396C/Desktop/Projet_I2CIP/Projet_I2CIP_lib/hdl+C:/Users/E21C396C/Desktop/Projet_I2CIP/Projet_I2CIP_lib/ps/Z_I2C_IP_struct
+17:+define+synthesis

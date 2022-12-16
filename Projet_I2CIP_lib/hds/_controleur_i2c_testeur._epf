@@ -1,0 +1,2 @@
+DEFAULT_FILE atom @controleur_@i2@c_@testeur/struct.bd
+DEFAULT_ARCHITECTURE atom struct
