@@ -1,0 +1,19 @@
+[ModelSim]
+Projet_I2CIP_lib = $HDS_PROJECT_DIR/Projet_I2CIP_lib/modelsim
+[ModelSim_Invoke_Dir]
+Projet_I2CIP_lib = $HDS_PROJECT_DIR/Projet_I2CIP_lib/sim
+[Precision]
+Projet_I2CIP_lib = $HDS_PROJECT_DIR\Projet_I2CIP_lib\ps
+[hdl]
+Projet_I2CIP_lib = $HDS_PROJECT_DIR/Projet_I2CIP_lib/hdl
+[hds]
+Projet_I2CIP_lib = $HDS_PROJECT_DIR/Projet_I2CIP_lib/hds
+[hds_settings]
+default_library = Projet_I2CIP_lib
+version = 3
+[library_files_inclusion]
+Projet_I2CIP_lib = specify
+[library_type]
+Projet_I2CIP_lib = regular
+[shared]
+others = $HDS_TEAM_HOME/shared.hdp
