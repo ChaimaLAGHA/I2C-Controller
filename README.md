@@ -48,4 +48,11 @@ Each byte must be followed by an acknowledgement bit (ACK).
 
 The figure below represents a two-byte read cycle.
 ![read cycle](https://user-images.githubusercontent.com/92653832/208108854-13b57cdd-79cd-496b-b717-4148846ce528.png)
-Translated with www.DeepL.com/Translator (free version)
+# I2C controller state-transition diagram
+The objective of the functional specifications is to describe the functions that the system must provide for its environment.The state-transition diagram of the I2C controller towards its environment is given below:
+![comportement](https://user-images.githubusercontent.com/92653832/208109475-40ce3920-586d-408e-8b34-cabd45ce3ac4.png)
+
+This state-transition diagram describes the behavior of the I2C controller in case of writing and reading without
+presenting the creation of the SCK clock signal and its link with the generation of the SDA signal. 
+
+
