@@ -27,3 +27,25 @@ successfully received and that another byte can be sent (status register).
 depending on the configuration made by the microprocessor.
 
 The internal organization of the final system-on-chip is as below . This project is dedicated only to the design of the I2C controller.
+
+![architecture classique du SOC](https://user-images.githubusercontent.com/92653832/208107451-6ca79e30-92b5-499b-a500-357648efbc4e.png)
+
+The detailed wiring diagram of the circuit to be designed is given in the figure below:
+![Schéma de cablage du I2C](https://user-images.githubusercontent.com/92653832/208107913-fbcba95e-f21f-4d8f-bfd1-c4d9e4850ce1.png)
+# I2C Controler exchange cycle with an external device
+Exchanges between the I2C controller and an external device are done via the SDA and SCK signals.
+An I2C frame is composed of :
+● A START bit (SDA goes to '0' and SCK remains at 1).
+● 8 address bits (to select the external device with which the circuit exchanges data).
+exchange data with).
+● One data direction bit (R / W) ("0" write, '1' read).
+● 8 data bits.
+● An acknowledgement bit.
+● A stop bit (SDA goes to '1' and SCK remains at '1').
+The number of bytes that can be exchanged is defined during the configuration of the circuit by the processor. The data are transmitted from the most significant bit (MSB).
+![trame i2C](https://user-images.githubusercontent.com/92653832/208107921-ce810d54-f1ca-45c0-ad89-35a68e710961.png)
+Each byte must be followed by an acknowledgement bit (ACK).
+
+The figure below represents a two-byte read cycle.
+![read cycle](https://user-images.githubusercontent.com/92653832/208108854-13b57cdd-79cd-496b-b717-4148846ce528.png)
+Translated with www.DeepL.com/Translator (free version)
