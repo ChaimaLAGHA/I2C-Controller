@@ -55,4 +55,12 @@ The objective of the functional specifications is to describe the functions that
 This state-transition diagram describes the behavior of the I2C controller in case of writing and reading without
 presenting the creation of the SCK clock signal and its link with the generation of the SDA signal. 
 
+# Simulation 
+The following figure shows the sending of an I2C frame composed of three bytes in standard transmission mode in Little Endian format. 
+
+![write I2C](https://user-images.githubusercontent.com/92653832/208110260-98b8e811-7ab1-4c7a-a699-a672e373d843.png)
+
+ The following figure shows the reception of an I2C frame composed of two bytes in fast transmission mode in Big Endian format. 
+ 
+![read I2C](https://user-images.githubusercontent.com/92653832/208110250-8ffae556-7834-466b-bdc8-3720b6a5ae21.png)
 
