@@ -64,3 +64,7 @@ The following figure shows the sending of an I2C frame composed of three bytes i
  
 ![read I2C](https://user-images.githubusercontent.com/92653832/208110250-8ffae556-7834-466b-bdc8-3720b6a5ae21.png)
 
+#Synthesis
+The RTL schematic shows the 3 blocks: ClockGenerator, Emission_Reception and Interface. It also shows the tri-state buffers for the I2C controller signals (DataReceived , DataToSend, SDA) and the Dbus processor bus.
+
+![Capture](https://user-images.githubusercontent.com/92653832/208111235-97470fc1-bc87-4a44-a565-ded0aea33b42.PNG)
